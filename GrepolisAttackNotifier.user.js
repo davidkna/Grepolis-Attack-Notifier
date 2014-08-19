@@ -2,7 +2,7 @@
 // @name          Grepolis Attack Notifier
 // @namespace     github.com/davidkna/Grepolis-Attack-Notifier
 // @description   Get native Browser Notifications when you are attacked on Grepolis! Be sure to attack yourself and grant Grepolis permission to send you notfications 'always'.
-// @version       1.0.1
+// @version       1.0.2
 // @include	      *://*.grepolis.*/game*
 // @grant					none
 // @downloadURL		https://raw.githubusercontent.com/davidkna/Grepolis-Attack-Notifier/master/GrepolisAttackNotifier.user.js
@@ -79,7 +79,7 @@ var GAN = {
 			notificationBody: 'Du wirst auf Grepolis angegriffen!\n #{ count } Angriffe auf dem Weg.'
 		},
 		en: {
-      notificationBody: 'You are being attacked on Grepolis!\n #{ count } attacks incomiing.'
+      notificationBody: 'You are being attacked on Grepolis!\n #{ count } attacks incoming.'
 		}
 	}
 
