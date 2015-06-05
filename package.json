@@ -1,0 +1,24 @@
+{
+  "name": "grepolis-attack-notifier",
+  "version": "1.1.0",
+  "description": "Get native Browser Notifications when you are attacked on Grepolis! Be sure to attack yourself and grant Grepolis permission to send you notfications 'always'.",
+  "main": "GrepolisAttackNotifier.user.js",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-eslint": "^3.1.13",
+    "gulp": "^3.9.0",
+    "gulp-babel": "^5.1.0",
+    "gulp-concat": "^2.5.2",
+    "gulp-uglify": "^1.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidkna/Grepolis-Attack-Notifier.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/davidkna/Grepolis-Attack-Notifier/issues"
+  },
+  "homepage": "https://github.com/davidkna/Grepolis-Attack-Notifier#readme"
+}
