@@ -22,30 +22,28 @@ function main() {
 			sendNotification(data.count);
 		});
 
-		function getNotificationBody(count) {
-			switch (lang) {
-				case "de":
-					return `Du wirst auf Grepolis angegriffen!\n${ count }  Angriffe auf dem Weg.`
-					break;
-				case "en":
-				default:
-					return `You are being attacked on Grepolis!\n${ count } attacks incoming.`
-
-
+	function getNotificationBody(count) {
+		switch (lang) {
+			case "de":
+				return `Du wirst auf Grepolis angegriffen!\n${ count }  Angriffe auf dem Weg.`;
+				break;
+			case "en":
+			default:
+				return `You are being attacked on Grepolis!\n${ count } attacks incoming.`;
 			}
 		}
 
-		function sendRealNotification(count) {
-			const options = {
-				lang: lang,
-				body: getNotificationBody(count)
-			};
-			var notification = new Notification('Grepolis Attack Notifier', options);
-		}
+	function sendRealNotification(count) {
+		const options = {
+			lang: lang,
+			body: getNotificationBody(count)
+		};
+		var notification = new Notification('Grepolis Attack Notifier', options);
+	}
 
-		function sendAlertNotification(count) {
-			alert(getNotificationBody(count));
-		}
+	function sendAlertNotification(count) {
+		alert(getNotificationBody(count));
+	}
 
 
 	function sendNotification(count) {
