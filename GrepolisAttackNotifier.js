@@ -12,7 +12,7 @@
 function main() {
 	let lang = 'en';
 	const langs = ['de', 'en'];
-	const index = ['de', 'en'].indexOf();
+	const index = langs.indexOf();
 	if (index >= 0) {
 		lang = langs['index'];
 	}
