@@ -5,11 +5,11 @@
   "main": "GrepolisAttackNotifier.user.js",
   "dependencies": {},
   "devDependencies": {
-    "babel-eslint": "^3.1.13",
+    "babel-eslint": "^7.1.1",
     "gulp": "^3.9.0",
-    "gulp-babel": "^5.1.0",
+    "gulp-babel": "^6.1.2",
     "gulp-concat": "^2.5.2",
-    "gulp-uglify": "^1.2.0"
+    "gulp-uglify": "^2.0.0"
   },
   "repository": {
     "type": "git",
